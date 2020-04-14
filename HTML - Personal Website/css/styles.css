@@ -1,0 +1,24 @@
+body {
+    background-color: #effcef;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: #ccedd2;
+    border-width: 5px;
+    width: 5%;
+}
+
+h1, h3 {
+    color: #94d3ac;
+}
+
+a, a:visited {
+    color: #94d3ac;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+a:hover {
+    font-size: 104%;
+}
