@@ -2,11 +2,19 @@ body {
     background-color: #effcef;
 }
 
+.self-img {
+    border-radius: 100%;
+}
+.self-img:hover {
+    background-color: #94d3ac;
+}
+
 hr {
+    margin-right: 20px;
     border-style: dotted none none;
     border-color: #ccedd2;
     border-width: 5px;
-    width: 5%;
+    width: 10%;
 }
 
 h1, h3 {
