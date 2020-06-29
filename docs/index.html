@@ -1,71 +1,120 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">  
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="cloud.ico">
-  <title>Guilherme Alves</title>
-</head>
-<body>
-  <div class="top-container">
-    <img class="top-cloud"src="images/cloud.png" alt="cloud-img">
-    <h1>Eu sou Guilherme</h1>
-    <h2>um <span class="underline">pro</span>gramador</h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-    <img src="images/mountain.png" alt="cloud-img">
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+    <title>Personal Site</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/styles.css">
+    <script
+      src="https://kit.fontawesome.com/34f5234bc5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="header">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#header">Guilherme Alves</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#header">Início</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#abilities">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">Contato</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+        <h3>BEM VINDO AO MEU SITE</h3>
+        <img class="self-img" src="images/self-img-header.png" alt="main-img" />
+        <h1>GUILHERME ALVES</h1>
+        <button type="button">Contate-me</button>
+      </div>
+    </section>
 
-  </div>
-
-  <div class="middle-container">
-    <div class="profile">
-      <img src="images/self-img.png" alt="Guilherme's photo">
-      <h2>Olá.</h2>
-      <p class="bio-text">
-        Meu nome é Guilherme e sou um estudante de Ciência da Computação na 
-        <a href="http://www.portal.facom.ufu.br/graduacao/ciencia-da-computacao">UFU (Universidade Federal de Uberlândia)</a>  
-        que busca aprender novas tecnologias para desenvolver meu conhecimento na área de Computação.
-      </p>
-    </div>
-    <hr>
-    <div class="skills">
-      <h2>Minhas habilidades.</h2>
-      <div class="skill-row">
-        <img class="code-img" src="https://media.giphy.com/media/2Ygy0khwewLgMSYM0t/giphy.gif" alt="code-gif">
-        
-        <h3>Programação para competição</h3>
+    <section id="about">
+      <div class="content">
+        <h2>SOBRE MIM</h2>
+        <hr />
+        <img src="" alt="Imagem minha" />
         <p>
-          Desde 2020, iniciei meus estudos na área de programação para competição devido ao programa <a href="https://uberhubcode.com.br/">UberHub Code Club</a> e me encontro no nível intermediário do ensino.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut
+          convallis urna. Donec nec mattis mauris. Aliquam sagittis turpis a
+          ornare tincidunt. Phasellus auctor tempus lectus
         </p>
       </div>
-      <div class="skill-row">
-        <img class="college-img" src="https://is2-ssl.mzstatic.com/image/thumb/Purple82/v4/c6/9e/33/c69e33d8-918a-9335-5dc3-adab2f0f157b/source/256x256bb.jpg" alt="">
-        <h3>2º período de Ciência da Computação na <a href="http://www.portal.facom.ufu.br/graduacao/ciencia-da-computacao">UFU</a>.</h3>
-        <p>
-          Atualmente, me encontro no meu segundo semestre do curso de Ciência da Computação. 
-          Dessa forma ja possuo conhecimentos desenvolvidos na área de programação em C/ C++
-          e na área de lógica de programação. Gosto muito de pensar soluções através de códigos
-          e fico contente quando consigo elaborar um algoritmo capaz de resolver algum problema 
-          (ou entender um algoritmo).
-        </p>
+    </section>
+
+    <section id="abilities">
+      <div class="content">
+        <h2>Habilidades</h2>
+        <hr />
+        <div class="slides">
+          <i class="fab fa-html5"></i>
+          <p>Lorem ipsum dolor sit amet</p>
+
+          <i class="fab fa-css3-alt"></i>
+          <p>Lorem ipsum dolor sit amet</p>
+
+          <i class="fab fa-bootstrap"></i>
+          <p>Lorem ipsum dolor sit amet</p>
+
+          <i class="fab fa-js-square"></i>
+          <p>Lorem ipsum dolor sit amet</p>
+
+          <i class="fas fa-laptop-code"></i>
+          <p>C/ C++</p>
+        </div>
       </div>
-    </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Entre em contato</h2>
-      <h3>Gostou do meu site?</h3>
-      <p class="contact-me-text">Se você também tiver interesse na área de competição e desenvolvimento web, sinta-se livre para me contatar.</p>
-      <a class="btn" href="mailto:guilherme.092011@hotmail.com">CONTATE-ME</a>
-    </div>
-  </div>
-  
-  
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/guilherme-alves-carvalho-45893990/">LinkedIn</a>
-    <a class="footer-link" href="https://github.com/guilhermealvesc">GitHub</a>
-    <a class="footer-link" href="https://www.urionlinejudge.com.br/judge/pt/profile/418708">Uri Online Judge</a>
-    <p class="copyright">© 2020 Guilherme Alves.</p>
-  </div>
-</body>
+    </section>
+
+    <section id="portfolio">
+      <div class="content">
+        <h2>Portfólio</h2>
+        <hr />
+        <i class="fab fa-github"></i>
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+    </section>
+    <section id="footer">
+      <div class="content">
+        <h3>ICONES LINKADOS</h3>
+        <hr />
+        <p>© Copyright 2020 Guilherme Alves</p>
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
