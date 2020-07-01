@@ -6,7 +6,9 @@ body {
 
 /* Header */  
 #header {
-    background-image: url(/docs/images/18010.jpg);
+    background-image: url(/docs/images/background.jpg);
+    background-color: #E5E4E4;
+    background-size: cover;
 }
 
 
@@ -16,7 +18,7 @@ body {
 }
 
 .navbar-brand {
-    font-size: 0.8125rem;
+    font-size: 0.8125em;
     font-weight: 300;
 }
 
@@ -26,7 +28,7 @@ body {
 
 .header-title {
     margin-bottom: 2.5rem;
-    font-size: 1.125rem;
+    font-size: 1.125em;
     font-weight: 300;
     letter-spacing: 0.04rem;
 }
@@ -42,16 +44,176 @@ body {
 
 .header-name {
     margin: 2.5rem 0 1.5rem;
-    font-size: 2.25rem;
+    font-size: 2.25em;
     color:#CD1C24;
     font-weight: 700;
     letter-spacing: 0.13rem;
 }
 
+.rule {
+    display: inline;
+    border: 1px solid #000000;
+}
+
 .header-button {
     letter-spacing: 0.13rem;
-    font-size: 0.6875rem;
+    font-size: 0.6875em;
     border-radius: 20px;
     background-color:#CD1C24;
     margin-bottom: 1rem;
+}
+
+
+/* About */
+
+#about {
+    background-color: #F2F2F2;
+    box-shadow: 0px 0px 9px #E5E4E4;
+}
+
+.about-content {
+    padding: 17% 15%;
+}
+
+.about-title {
+    font-size: 1.5em;
+    letter-spacing: 0.04rem;
+}
+
+.content-rule {
+    margin: 0 auto 1rem;
+    width: 60%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(205, 28, 36, 1), rgba(0, 0, 0, 0));
+}
+
+.about-item {
+    padding: 14% 0 0;
+}
+
+
+.about-img {
+    width: 60%;
+}
+
+.about-text {
+    font-weight: 300;
+    font-size: 1.125em;
+    line-height: 1.5;
+    letter-spacing: 0.04rem;
+}
+
+/* Abilities */
+
+#abilities {
+    background-color: #e5e4e4;
+    background-image: url(/docs/images/background.jpg);
+    box-shadow: inset 0px 0px 9px #E5E4E4;
+    background-size: cover;
+
+}
+
+.abilities-content {
+    padding: 17% 0;
+}
+
+.abilities-title {
+    font-size: 1.5em;
+    letter-spacing: 0.04rem;
+}
+
+.slides{
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.html ,.css3, .bootstrap, .javascript, .computer {
+    width: 80%;
+}
+
+.slide-info {
+    margin-top: 2.2rem;
+    font-weight: 300;
+    font-size: 1.125em;
+    line-height: 1.5;
+    letter-spacing: 0.04rem;
+}
+
+
+/* Portfólio  */
+
+#portfolio{
+    background-color: #F2F2F2;
+    box-shadow: 0px 0px 9px #E5E4E4;
+}
+
+.portfolio-content {
+    padding: 17% 15%;
+}
+
+.portfolio-title {
+    font-size: 1.5em;
+    letter-spacing: 0.04rem;
+}
+
+.portfolio-item {
+    padding: 14% 0 0;
+}
+
+.github {
+    color: #323131;
+}
+
+.portfolio-text {
+    font-weight: 300;
+    font-size: 1.125em;
+    line-height: 1.5;
+    letter-spacing: 0.04rem;
+}
+
+/* Contato */
+
+#footer {
+    background-color: #e5e4e4;
+    background-image: url(/docs/images/background.jpg);
+    box-shadow: inset 0px 0px 9px #E5E4E4;
+    background-size: cover;
+
+}
+
+.footer-content {
+    padding: 17% 15%;
+}
+
+.icon{
+    color: #000000;
+    margin: 0 1.2rem 1.2rem;
+}
+
+.rule-footer {
+    margin: 0 auto 1rem;
+    width: 70%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(205, 28, 36, 1), rgba(0, 0, 0, 0));
+}
+
+.cr-footer {
+    font-weight: 300;
+    font-size: 0.75em;
+    letter-spacing: 0.04rem;
+}
+
+@media only screen and (min-width: 530px) and (max-width: 768px) {
+    body {
+        font-size: 1.4rem;
+        line-height: 1.5;
+    }
+    .self-img {
+        width: 50%;
+    }
+    .html ,.css3, .bootstrap, .javascript, .computer {
+        width: 50%;
+    }
 }
