@@ -54,7 +54,10 @@ body {
     display: inline;
     border: 1px solid #000000;
 }
-
+.header-text {
+    display: flex;
+    flex-direction: column;
+}
 .header-button {
     letter-spacing: 0.13rem;
     font-size: 0.6875em;
@@ -122,6 +125,9 @@ body {
     font-size: 1.5em;
     letter-spacing: 0.04rem;
 }
+.carousel {
+    padding-top: 1%;
+}
 
 .slides{
     padding-right: 15%;
@@ -162,7 +168,7 @@ body {
 }
 
 .github {
-    color: #323131;
+    width: 80%;
 }
 
 .portfolio-text {
@@ -204,7 +210,7 @@ body {
     font-size: 0.75em;
     letter-spacing: 0.04rem;
 }
-
+/* Tablet Version */
 @media only screen and (min-width: 530px) and (max-width: 768px) {
     body {
         font-size: 1.4rem;
@@ -216,4 +222,85 @@ body {
     .html ,.css3, .bootstrap, .javascript, .computer {
         width: 50%;
     }
+}
+/* Site Version*/
+@media only screen and (min-width: 769px) {
+    body {
+        font-size: 2.0rem;
+        line-height: 3.0;
+    }
+    .container-fluid {
+        padding-bottom: 0;
+        padding-top: 1%;
+    }
+
+    .nav-item {
+        font-size: 1.4rem;
+    }
+
+    .header-content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        flex-direction: column;
+        position: relative;
+        padding: 2% 4% 17% 4%;
+        height: 700px;
+    }
+
+    .header-title {
+        align-self: center;
+        margin-bottom: 0;
+    }
+    .header-text {
+        align-items: flex-start;
+    }
+    .self-img {
+        position: absolute;
+        bottom: 0;
+        right: 7%;
+        border-radius: 0;
+        width: 35%;
+    }
+
+    .about-content {
+        padding: 4%;
+    }
+    .about-item {
+        padding: 7% 0 0;
+    }
+    .about-img {
+
+        width: 40%;
+    }
+    .about-text {
+        text-align: left;
+        font-weight: 300;
+        font-size: 1.125em;
+        line-height: 1.5;
+        letter-spacing: 0.04rem;
+    }
+
+    .abilities-content {
+        padding: 4% 0;
+    }
+    
+    .html ,.css3, .bootstrap, .javascript, .computer {
+        width: 35%;
+    }
+
+    .portfolio-content {
+        padding: 4%;
+    }    
+
+    .portfolio-item {
+        padding: 5% 0 0;
+    }
+    .github {
+        width: 25%;
+    }
+    .footer-content {
+        padding: 4%;
+    }
+    
 }
