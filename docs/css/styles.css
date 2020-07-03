@@ -6,7 +6,7 @@ body {
 
 /* Header */  
 #header {
-    background-image: url(https://image.freepik.com/vetores-gratis/abstrato-luz-cinza-poligonal-fundo-geometrico_1035-18010.jpg);
+    background-image: url(https://i.imgur.com/6Hr50dJ.jpg);
     background-color: #E5E4E4;
     background-size: cover;
 }
@@ -111,7 +111,7 @@ body {
 
 #abilities {
     background-color: #e5e4e4;
-    background-image: url(https://image.freepik.com/vetores-gratis/abstrato-luz-cinza-poligonal-fundo-geometrico_1035-18010.jpg);
+    background-image: url(https://i.imgur.com/6Hr50dJ.jpg);
     box-shadow: inset 0px 0px 9px #E5E4E4;
     background-size: cover;
 
@@ -182,7 +182,7 @@ body {
 
 #footer {
     background-color: #e5e4e4;
-    background-image: url(https://image.freepik.com/vetores-gratis/abstrato-luz-cinza-poligonal-fundo-geometrico_1035-18010.jpg);
+    background-image: url(https://i.imgur.com/6Hr50dJ.jpg);
     box-shadow: inset 0px 0px 9px #E5E4E4;
     background-size: cover;
 
@@ -228,9 +228,6 @@ body {
     body {
         font-size: 2.0rem;
         line-height: 3.0;
-    }
-    #header {
-        background-image: none;
     }
     .container-fluid {
         padding-bottom: 0;
@@ -284,11 +281,6 @@ body {
         line-height: 1.5;
         letter-spacing: 0.04rem;
     }
-
-    #abilities {
-        background-image: none;
-    }
-
     .abilities-content {
         padding: 4% 0;
     }
@@ -306,9 +298,6 @@ body {
     }
     .github {
         width: 25%;
-    }
-    #footer {
-        background-image: none;
     }
 
     .footer-content {
